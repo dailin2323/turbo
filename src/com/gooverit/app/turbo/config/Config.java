@@ -26,7 +26,7 @@ public class Config extends JFinalConfig {
 
 	@Override
 	public void configConstant(Constants me) {
-		this.loadPropertyFile("classes/dev/db.properties");
+		this.loadPropertyFile("/classes/dev/db.properties");
 		me.setDevMode(true);
 		me.setViewType(ViewType.JSP);
 	}
